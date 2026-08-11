@@ -1,17 +1,10 @@
 # Modelagem de Negócio — CodeHub — 2026
 
-## Objetivo
-
-O CodeHub tem como objetivo funcionar como um **gerenciador de projetos**, permitindo cadastrar, organizar e acompanhar projetos, proporcionando uma visão geral de seu andamento e das atividades relacionadas.
-
-O sistema busca oferecer **organização, rastreabilidade das informações, praticidade e facilidade de acesso**, podendo ser utilizado tanto individualmente quanto em ambientes colaborativos.
-
-Além do gerenciamento de projetos, o CodeHub contará com um sistema de **gamificação**, no qual os desenvolvedores poderão receber XP e Badges de acordo com suas entregas, desempenho e áreas de especialização.
-
 ## Requisitos Funcionais
 
 * O sistema deve permitir o **cadastro de empresas**, que servirão como base para organizar as demais informações do sistema.
 
+*
   **Exemplo:**
   `Empresa → Usuários → Grupos → Projetos`
 
@@ -35,3 +28,17 @@ Além do gerenciamento de projetos, o CodeHub contará com um sistema de **gamif
 * O sistema deve possuir um **sistema de níveis e recompensas**, baseado na conclusão de tarefas e demais atividades realizadas pelos usuários.
 
 * O sistema deve permitir o **registro e acompanhamento do andamento dos projetos**.
+
+* Necessário ter sistema de cadastro e login.
+
+## Requisitos Não Funcionais
+
+* S.G.B.D (Sistema Gerenciador de Banco de Dados) utilizado: PostgreSQL v18.x para utilização em nuvem;
+
+* Interface Gráfica: Aplicação Web;
+
+* Sistema baseado em Ortogonalidade: Módulos Independentes;
+
+* Auditoria: Ações consideradas importantes devem ser registradas;
+
+* Segurança: Permissões do sistema devem ser baseadas no usuário;
